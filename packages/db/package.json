@@ -2,9 +2,7 @@
   "name": "@test-evals/db",
   "type": "module",
   "exports": {
-    ".": {
-      "default": "./src/index.ts"
-    },
+     ".": "./src/index.ts",
     "./*": {
       "default": "./src/*.ts"
     }

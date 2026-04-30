@@ -32,11 +32,15 @@
     "db:push": "turbo -F @test-evals/db db:push",
     "db:studio": "turbo -F @test-evals/db db:studio",
     "db:generate": "turbo -F @test-evals/db db:generate",
-    "db:migrate": "turbo -F @test-evals/db db:migrate"
+    "db:migrate": "turbo -F @test-evals/db db:migrate",
+    "eval": "bun run apps/server/src/cli/eval.ts"
   },
   "dependencies": {
     "@test-evals/env": "workspace:*",
+    "ajv": "^8.20.0",
     "dotenv": "catalog:",
+    "drizzle-orm": "^0.45.2",
+    "fuzzball": "^2.2.6",
     "zod": "catalog:"
   },
   "devDependencies": {

@@ -8,3 +8,6 @@ export function createDb() {
 }
 
 export const db = createDb();
+
+// Export schema tables so other packages can import them
+export * from "./schema";

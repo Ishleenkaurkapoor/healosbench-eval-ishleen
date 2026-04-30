@@ -1,0 +1,19 @@
+{
+  "name": "@test-evals/llm",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./hallucination": "./src/hallucination.ts"
+  },
+  "dependencies": {
+    "@test-evals/shared": "workspace:*",
+    "@anthropic-ai/sdk": "^0.39.0",
+    "ajv": "^8.17.1",
+    "fuzzball": "^2.1.2"
+  },
+  "devDependencies": {
+    "typescript": "catalog:"
+  }
+}

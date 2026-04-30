@@ -1,0 +1,14 @@
+Starting eval: strategy=zero_shot
+
+Run complete!
+
+chief_complaint: 0.84
+vitals:          0.93
+medications:     0.72
+diagnoses:       0.76
+plan:            0.74
+follow_up:       0.79
+overall:         0.80
+
+Completed: 50
+Failed: 0
